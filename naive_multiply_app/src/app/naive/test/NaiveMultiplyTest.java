@@ -53,4 +53,5 @@ public class NaiveMultiplyTest {
 		Matrix m2 = new Matrix(4, 4, 3);
 		NaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
 	}
+	
 }
