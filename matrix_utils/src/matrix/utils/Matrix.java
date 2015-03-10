@@ -5,6 +5,7 @@ import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
+import java.util.Random;
 
 /**
  * Base Matrix Model Class
@@ -12,19 +13,18 @@ import java.util.Locale;
  * This class design is heavily influenced by JAMA.
  * (http://math.nist.gov/javanumerics/jama/#Package)
  * 
- * double[][] vals = { { 1., 2., 3 }, { 4., 5., 6. }, { 7., 8., 10. } };
- * Matrix A = new Matrix(vals);
+ * int[][] vals = { { 1., 2., 3 }, { 4., 5., 6. }, { 7., 8., 10. } }; Matrix
+ * A = new Matrix(vals);
  * 
  * @author Anthony Troy
  */
 public class Matrix {
-	
+
 	/* Array for internal storage of elements */
-	private double[][] A;
+	private int[][] A;
 	/* Row and column dimensions */
 	private int m, n;
 
-	
 	/**
 	 * Construct an m-by-n matrix of zeros.
 	 * 
@@ -36,7 +36,7 @@ public class Matrix {
 	public Matrix(int m, int n) {
 		this.m = m;
 		this.n = n;
-		A = new double[m][n];
+		A = new int[m][n];
 	}
 
 	/**
@@ -49,10 +49,10 @@ public class Matrix {
 	 * @param s
 	 *            Fill the matrix with this scalar value.
 	 */
-	public Matrix(int m, int n, double s) {
+	public Matrix(int m, int n, int s) {
 		this.m = m;
 		this.n = n;
-		A = new double[m][n];
+		A = new int[m][n];
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {
 				A[i][j] = s;
@@ -64,12 +64,12 @@ public class Matrix {
 	 * Construct a matrix from a 2-D array.
 	 * 
 	 * @param A
-	 *            Two-dimensional array of doubles.
+	 *            Two-dimensional array of ints.
 	 * @exception IllegalArgumentException
 	 *                All rows must have the same length
 	 * @see #constructWithCopy
 	 */
-	public Matrix(double[][] A) {
+	public Matrix(int[][] A) {
 		m = A.length;
 		n = A[0].length;
 		for (int i = 0; i < m; i++) {
@@ -85,35 +85,50 @@ public class Matrix {
 	 * Construct a matrix from a one-dimensional packed array
 	 * 
 	 * @param vals
-	 *            One-dimensional array of doubles, packed by columns (ala
+	 *            One-dimensional array of ints, packed by columns (ala
 	 *            Fortran).
 	 * @param m
 	 *            Number of rows.
 	 * @exception IllegalArgumentException
 	 *                Array length must be a multiple of m.
 	 */
-	public Matrix(double vals[], int m) {
+	public Matrix(int vals[], int m) {
 		this.m = m;
 		n = (m != 0 ? vals.length / m : 0);
 		if (m * n != vals.length) {
 			throw new IllegalArgumentException(
 					"Array length must be a multiple of m.");
 		}
-		A = new double[m][n];
+		A = new int[m][n];
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {
 				A[i][j] = vals[i + j * m];
 			}
 		}
 	}
-	
+
+	/**
+	 * Construct a matrix quickly without checking arguments.
+	 * 
+	 * @param A
+	 *            Two-dimensional array of ints.
+	 * @param m
+	 *            Number of rows.
+	 * @param n
+	 *            Number of columns.
+	 */
+	public Matrix(int[][] A, int m, int n) {
+		this.A = A;
+		this.m = m;
+		this.n = n;
+	}
 
 	/**
 	 * Access the internal two-dimensional array.
 	 * 
 	 * @return Pointer to the two-dimensional array of matrix elements.
 	 */
-	public double[][] getArray() {
+	public int[][] getArray() {
 		return A;
 	}
 
@@ -145,7 +160,7 @@ public class Matrix {
 	 * @return A(i,j)
 	 * @exception ArrayIndexOutOfBoundsException
 	 */
-	public double get(int i, int j) {
+	public int get(int i, int j) {
 		return A[i][j];
 	}
 
@@ -166,7 +181,7 @@ public class Matrix {
 	 */
 	public Matrix getMatrix(int i0, int i1, int j0, int j1) {
 		Matrix X = new Matrix(i1 - i0 + 1, j1 - j0 + 1);
-		double[][] B = X.getArray();
+		int[][] B = X.getArray();
 		try {
 			for (int i = i0; i <= i1; i++) {
 				for (int j = j0; j <= j1; j++) {
@@ -192,7 +207,7 @@ public class Matrix {
 	 */
 	public Matrix getMatrix(int[] r, int[] c) {
 		Matrix X = new Matrix(r.length, c.length);
-		double[][] B = X.getArray();
+		int[][] B = X.getArray();
 		try {
 			for (int i = 0; i < r.length; i++) {
 				for (int j = 0; j < c.length; j++) {
@@ -220,7 +235,7 @@ public class Matrix {
 	 */
 	public Matrix getMatrix(int i0, int i1, int[] c) {
 		Matrix X = new Matrix(i1 - i0 + 1, c.length);
-		double[][] B = X.getArray();
+		int[][] B = X.getArray();
 		try {
 			for (int i = i0; i <= i1; i++) {
 				for (int j = 0; j < c.length; j++) {
@@ -248,7 +263,7 @@ public class Matrix {
 	 */
 	public Matrix getMatrix(int[] r, int j0, int j1) {
 		Matrix X = new Matrix(r.length, j1 - j0 + 1);
-		double[][] B = X.getArray();
+		int[][] B = X.getArray();
 		try {
 			for (int i = 0; i < r.length; i++) {
 				for (int j = j0; j <= j1; j++) {
@@ -272,7 +287,7 @@ public class Matrix {
 	 *            A(i,j).
 	 * @exception ArrayIndexOutOfBoundsException
 	 */
-	public void set(int i, int j, double s) {
+	public void set(int i, int j, int s) {
 		A[i][j] = s;
 	}
 
@@ -381,7 +396,22 @@ public class Matrix {
 	}
 
 	/**
-	 * Generate matrix with random elements
+	 * Copy the internal two-dimensional array.
+	 * 
+	 * @return Two-dimensional array copy of matrix elements.
+	 */
+	public int[][] getArrayCopy() {
+		int[][] C = new int[m][n];
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				C[i][j] = A[i][j];
+			}
+		}
+		return C;
+	}
+
+	/**
+	 * Generate matrix with random elements (1 to 9)
 	 * 
 	 * @param m
 	 *            Number of rows.
@@ -391,10 +421,11 @@ public class Matrix {
 	 */
 	public static Matrix random(int m, int n) {
 		Matrix A = new Matrix(m, n);
-		double[][] X = A.getArray();
+		int[][] X = A.getArray();
+		Random ran = new Random();
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {
-				X[i][j] = Math.random();
+				X[i][j] = ran.nextInt(9) + 1;
 			}
 		}
 		return A;

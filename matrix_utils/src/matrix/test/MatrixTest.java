@@ -13,49 +13,45 @@ public class MatrixTest {
 	@Test
 	public void testEmptyConstructor() {
 		Matrix m = new Matrix(2, 2);
-		assertThat(m.get(0, 0), is(0.0));
-		assertThat(m.get(0, 1), is(0.0));
-		assertThat(m.get(1, 0), is(0.0));
-		assertThat(m.get(1, 1), is(0.0));
+		assertThat(m.get(0, 0), is(0));
+		assertThat(m.get(0, 1), is(0));
+		assertThat(m.get(1, 0), is(0));
+		assertThat(m.get(1, 1), is(0));
 	}
 
 	@Test
 	public void testScalarConstructor() {
 		Matrix m = new Matrix(2, 2, 5);
-		assertThat(m.get(0, 0), is(5.0));
-		assertThat(m.get(0, 1), is(5.0));
-		assertThat(m.get(1, 0), is(5.0));
-		assertThat(m.get(1, 1), is(5.0));
+		assertThat(m.get(0, 0), is(5));
+		assertThat(m.get(0, 1), is(5));
+		assertThat(m.get(1, 0), is(5));
+		assertThat(m.get(1, 1), is(5));
 	}
 
 	@Test
 	public void testDefaultConstructor() {
-		double[][] avals = { { 1., 4., 7., 10. }, { 2., 5., 8., 11. },
-				{ 3., 6., 9., 12. } };
+		int[][] avals = { { 1, 4, 7, 10 }, { 2, 5, 8, 11 }, { 3, 6, 9, 12 } };
 		Matrix m = new Matrix(avals);
 		assertNotNull(m);
 	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void testIllegalDefaultConstructor() {
-		double[][] rvals = { { 1., 4., 7. }, { 2., 5., 8., 11. },
-				{ 3., 6., 9., 12. } };
+		int[][] rvals = { { 1, 4, 7 }, { 2, 5, 8, 11 }, { 3, 6, 9, 12 } };
 		new Matrix(rvals);
 	}
 
 	@Test
-	public void testDoubleIntConstructor() {
-		double[] columnwise = { 1., 2., 3., 4., 5., 6., 7., 8., 9., 10., 11.,
-				12. };
+	public void testintIntConstructor() {
+		int[] columnwise = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 		int validld = 3;
 		Matrix m = new Matrix(columnwise, validld);
 		assertNotNull(m);
 	}
 
 	@Test(expected = IllegalArgumentException.class)
-	public void testIllegalDoubleIntConstructor() {
-		double[] columnwise = { 1., 2., 3., 4., 5., 6., 7., 8., 9., 10., 11.,
-				12. };
+	public void testIllegalintIntConstructor() {
+		int[] columnwise = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 		int invalidld = 5;
 		new Matrix(columnwise, invalidld);
 	}
@@ -63,11 +59,11 @@ public class MatrixTest {
 	@Test
 	public void testGetArray() {
 		Matrix m = new Matrix(2, 2, 5);
-		double matrixData[][] = m.getArray();
-		assertThat(matrixData[0][0], is(5.0));
-		assertThat(matrixData[0][1], is(5.0));
-		assertThat(matrixData[1][0], is(5.0));
-		assertThat(matrixData[1][1], is(5.0));
+		int matrixData[][] = m.getArray();
+		assertThat(matrixData[0][0], is(5));
+		assertThat(matrixData[0][1], is(5));
+		assertThat(matrixData[1][0], is(5));
+		assertThat(matrixData[1][1], is(5));
 	}
 
 	@Test
@@ -80,9 +76,9 @@ public class MatrixTest {
 	@Test
 	public void testSetElemAndGetElem() {
 		Matrix m = new Matrix(2, 2, 5);
-		assertThat(m.get(0, 1), is(5.0));
-		m.set(0, 1, 100.0);
-		assertThat(m.get(0, 1), is(100.0));
+		assertThat(m.get(0, 1), is(5));
+		m.set(0, 1, 100);
+		assertThat(m.get(0, 1), is(100));
 	}
 
 	@Test
@@ -90,8 +86,8 @@ public class MatrixTest {
 		Matrix subMartix = new Matrix(10, 10, 5).getMatrix(0, 4, 0, 4);
 		assertThat(subMartix.getColumnDimension(), is(5));
 		assertThat(subMartix.getRowDimension(), is(5));
-		assertThat(subMartix.get(0, 0), is(5.0));
-		assertThat(subMartix.get(0, 1), is(5.0));
+		assertThat(subMartix.get(0, 0), is(5));
+		assertThat(subMartix.get(0, 1), is(5));
 	}
 
 	@Test
@@ -103,8 +99,8 @@ public class MatrixTest {
 
 		assertThat(subMartix.getColumnDimension(), is(5));
 		assertThat(subMartix.getRowDimension(), is(5));
-		assertThat(subMartix.get(0, 0), is(5.0));
-		assertThat(subMartix.get(0, 1), is(5.0));
+		assertThat(subMartix.get(0, 0), is(5));
+		assertThat(subMartix.get(0, 1), is(5));
 	}
 
 	@Test
@@ -114,8 +110,8 @@ public class MatrixTest {
 
 		assertThat(subMartix.getColumnDimension(), is(5));
 		assertThat(subMartix.getRowDimension(), is(5));
-		assertThat(subMartix.get(0, 0), is(5.0));
-		assertThat(subMartix.get(0, 1), is(5.0));
+		assertThat(subMartix.get(0, 0), is(5));
+		assertThat(subMartix.get(0, 1), is(5));
 	}
 
 	@Test
@@ -125,8 +121,8 @@ public class MatrixTest {
 
 		assertThat(subMartix.getColumnDimension(), is(5));
 		assertThat(subMartix.getRowDimension(), is(5));
-		assertThat(subMartix.get(0, 0), is(5.0));
-		assertThat(subMartix.get(0, 1), is(5.0));
+		assertThat(subMartix.get(0, 0), is(5));
+		assertThat(subMartix.get(0, 1), is(5));
 	}
 
 	@Test
@@ -135,11 +131,11 @@ public class MatrixTest {
 		Matrix subMartix = new Matrix(2, 2, 5);
 		m.setMatrix(0, 1, 0, 1, subMartix);
 
-		assertThat(m.get(0, 0), is(5.0));
-		assertThat(m.get(0, 1), is(5.0));
-		assertThat(m.get(1, 0), is(5.0));
-		assertThat(m.get(1, 1), is(5.0));
-		assertThat(m.get(2, 0), is(6.0));
+		assertThat(m.get(0, 0), is(5));
+		assertThat(m.get(0, 1), is(5));
+		assertThat(m.get(1, 0), is(5));
+		assertThat(m.get(1, 1), is(5));
+		assertThat(m.get(2, 0), is(6));
 	}
 
 	@Test
@@ -149,11 +145,11 @@ public class MatrixTest {
 		Matrix subMartix = new Matrix(2, 2, 5);
 		m.setMatrix(rowAndColIndices, rowAndColIndices, subMartix);
 
-		assertThat(m.get(0, 0), is(5.0));
-		assertThat(m.get(0, 1), is(5.0));
-		assertThat(m.get(1, 0), is(5.0));
-		assertThat(m.get(1, 1), is(5.0));
-		assertThat(m.get(2, 0), is(6.0));
+		assertThat(m.get(0, 0), is(5));
+		assertThat(m.get(0, 1), is(5));
+		assertThat(m.get(1, 0), is(5));
+		assertThat(m.get(1, 1), is(5));
+		assertThat(m.get(2, 0), is(6));
 	}
 
 	@Test
@@ -163,11 +159,11 @@ public class MatrixTest {
 		Matrix subMartix = new Matrix(2, 2, 5);
 		m.setMatrix(rowIndices, 0, 1, subMartix);
 
-		assertThat(m.get(0, 0), is(5.0));
-		assertThat(m.get(0, 1), is(5.0));
-		assertThat(m.get(1, 0), is(5.0));
-		assertThat(m.get(1, 1), is(5.0));
-		assertThat(m.get(2, 0), is(6.0));
+		assertThat(m.get(0, 0), is(5));
+		assertThat(m.get(0, 1), is(5));
+		assertThat(m.get(1, 0), is(5));
+		assertThat(m.get(1, 1), is(5));
+		assertThat(m.get(2, 0), is(6));
 	}
 
 	@Test
@@ -177,11 +173,11 @@ public class MatrixTest {
 		Matrix subMartix = new Matrix(2, 2, 5);
 		m.setMatrix(0, 1, colIndices, subMartix);
 
-		assertThat(m.get(0, 0), is(5.0));
-		assertThat(m.get(0, 1), is(5.0));
-		assertThat(m.get(1, 0), is(5.0));
-		assertThat(m.get(1, 1), is(5.0));
-		assertThat(m.get(2, 0), is(6.0));
+		assertThat(m.get(0, 0), is(5));
+		assertThat(m.get(0, 1), is(5));
+		assertThat(m.get(1, 0), is(5));
+		assertThat(m.get(1, 1), is(5));
+		assertThat(m.get(2, 0), is(6));
 	}
 
 	@Test
@@ -192,9 +188,10 @@ public class MatrixTest {
 		assertThat(m.getRowDimension(), is(2));
 		for (int r = 0; r < m.getRowDimension(); r++) {
 			for (int c = 0; c < m.getArray()[r].length; c++) {
-				assertThat(m.get(r, c), is(instanceOf(double.class)));
-				assertThat(true, is(m.get(r, c) > 0.0));
-				assertThat(true, is(m.get(r, c) < 1.0));
+				assertThat(m.get(r, c), is(instanceOf(int.class)));
+				System.out.println(m.get(r,c));
+				assertThat(true, is(m.get(r, c) > 0));
+				assertThat(true, is(m.get(r, c) < 10));
 			}
 		}
 	}

@@ -1,6 +1,7 @@
 package app.naive.main;
 
-public final class NaiveMatrixMultiplier {
+
+public final class SequentialNaiveMatrixMultiplier {
 
 	/**
 	 * Naive element-by-element multiplication, a3 = a1*a2
@@ -12,7 +13,7 @@ public final class NaiveMatrixMultiplier {
 	 * @throws IllegalArgumentException
 	 * @return a3
 	 */
-	public static double[][] multiply(double[][] a1, double[][] a2) {
+	public static int[][] multiply(int[][] a1, int[][] a2) {
 		int rowAmount1 = a1.length;
 		int rowAmount2 = a2.length;
 		int colAmount1 = a1[0].length;
@@ -21,7 +22,7 @@ public final class NaiveMatrixMultiplier {
 		boolean isValidNonSquares = colAmount1 == rowAmount2;
 		if (!isSquares && !isValidNonSquares) throw new IllegalArgumentException("Matrix dimensions must agree");
 
-		double a3[][] = new double[rowAmount1][colAmount1];
+		int a3[][] = new int[rowAmount1][colAmount1];
 		for (int i = 0; i < rowAmount1; i++) {
 			for (int j = 0; j < colAmount1; j++) {
 				for (int k = 0; k < rowAmount2; k++) {
