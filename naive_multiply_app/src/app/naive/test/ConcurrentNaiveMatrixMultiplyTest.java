@@ -56,7 +56,7 @@ public class ConcurrentNaiveMatrixMultiplyTest {
 	}
 
 	
-	//0.17 ~ seconds
+	//1.98 ~ seconds
 	@Test
 	public void testTimes() {
 	 	Matrix m1 = Matrix.random(800, 800);

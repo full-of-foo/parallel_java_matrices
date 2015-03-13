@@ -2,6 +2,7 @@ package app.naive.main;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public final class ConcurrentNaiveMatrixMultiplier {
 
@@ -25,7 +26,7 @@ public final class ConcurrentNaiveMatrixMultiplier {
 		if (!isSquares && !isValidNonSquares) throw new IllegalArgumentException("Matrix dimensions must agree");
 		final int a3[][] = new int[rowAmount1][colAmount1];
 
-		int numTasks = 4;
+		int numTasks = Runtime.getRuntime().availableProcessors();
 		final ExecutorService executor = Executors.newFixedThreadPool(numTasks);
 	    for (int interval = numTasks, end = rowAmount1, size = (int) Math.ceil(rowAmount1 * 1.0 / numTasks); interval > 0; interval--, end -= size) {
 	        final int to = end;
@@ -45,8 +46,18 @@ public final class ConcurrentNaiveMatrixMultiplier {
 	        };
 	        executor.execute(runnable);
 	    }
-	    executor.shutdown();
-
+	    shutDownThreadPool(executor);
+	    
 		return a3;
+	}
+
+	private static void shutDownThreadPool(ExecutorService executor) {
+	    executor.shutdown();
+		try {
+			if (!executor.awaitTermination(60, TimeUnit.SECONDS)) { // Wait a while for existing tasks to terminate
+				executor.shutdownNow(); // Cancel currently executing tasks
+				if (!executor.awaitTermination(60, TimeUnit.SECONDS)) System.err.println("Pool did not terminate"); // Wait for tasks to respond
+			}
+		} catch (InterruptedException ie) { executor.shutdownNow(); }		
 	}
 }
