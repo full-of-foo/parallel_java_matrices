@@ -364,6 +364,7 @@ public class Matrix {
 					A[r[i]][j] = X.get(i, j - j0);
 				}
 			}
+
 		} catch (ArrayIndexOutOfBoundsException e) {
 			throw new ArrayIndexOutOfBoundsException("Submatrix indices");
 		}

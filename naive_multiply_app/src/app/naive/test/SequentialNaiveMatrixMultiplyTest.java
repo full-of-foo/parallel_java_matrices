@@ -57,38 +57,38 @@ public class SequentialNaiveMatrixMultiplyTest {
 	}
 
 	
-// ~1.32 seconds
+//// ~3.7 seconds
 //	@Test
 //	public void testTimes() {
-//		Matrix m1 = Matrix.random(550, 550);
-//		Matrix m2 = Matrix.random(550, 550);
+//		Matrix m1 = Matrix.random(800, 800);
+//		Matrix m2 = Matrix.random(800, 800);
 //		assertNotNull(SequentialNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray()));
 //	}
 
-// ~ 0.6 seconds
-//		@Test
-//		public void testTimes() {
-//			Matrix m1 = Matrix.random(550, 550);
-//			Matrix m2 = Matrix.random(550, 550);
-//			assertNotNull(ConcurrentNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray()));
-//		}
-	
-	
+// ~ 2.1 seconds
 	@Test
 	public void testTimes() {
-		Matrix m1 = Matrix.random(4, 4);
-		Matrix m2 = Matrix.random(4, 4);
-		
-		int[][] a = ConcurrentNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
-		Matrix m3 = new Matrix(a);
-		m3.print(1,1);
-		a = SequentialNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
-		m3 = new Matrix(a);
-		m3.print(1,1);
-		
+	 	Matrix m1 = Matrix.random(1600, 1200);
+		Matrix m2 = Matrix.random(1200, 1400);
 		assertNotNull(ConcurrentNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray()));
 	}
 	
+	
+//	@Test
+//	public void testTimes() {
+//		Matrix m1 = Matrix.random(4, 4);
+//		Matrix m2 = Matrix.random(4, 4);
+//		
+//		int[][] a = ConcurrentNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
+//		Matrix m3 = new Matrix(a);
+//		m3.print(1,1);
+//		a = SequentialNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
+//		m3 = new Matrix(a);
+//		m3.print(1,1);
+//		
+//		assertNotNull(1);
+//	}
+//	
 	
 	
 	
