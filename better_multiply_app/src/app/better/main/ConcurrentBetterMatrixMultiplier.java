@@ -26,14 +26,14 @@ public final class ConcurrentBetterMatrixMultiplier {
 		if (!isSquares && !isValidNonSquares) throw new IllegalArgumentException("Matrix dimensions must agree");
 		final int a3[][] = new int[rowAmount1][colAmount1];
 
-		int numTasks = Runtime.getRuntime().availableProcessors();
+		final int s = (int) Math.ceil(rowAmount1 * 1.0 / 4);
+		final int s2 = (int) Math.ceil(colAmount1 * 1.0 / 4); 
+		final int s3 = (int) Math.ceil(rowAmount2 * 1.0 / 4); 
+		final int numTasks = Runtime.getRuntime().availableProcessors();
 		final ExecutorService executor = Executors.newFixedThreadPool(numTasks);
 	    for (int interval = numTasks, end = rowAmount1, size = (int) Math.ceil(rowAmount1 * 1.0 / numTasks); interval > 0; interval--, end -= size) {
 	        final int to = end;
 	        final int from = Math.max(0, end - size);
-			int s = (int) Math.ceil(rowAmount1 * 1.0 / 4);
-			int s2 = (int) Math.ceil(colAmount1 * 1.0 / 4); 
-			int s3 = (int) Math.ceil(rowAmount2 * 1.0 / 4); 
 	        final Runnable runnable = new Runnable() {
 
 				@Override
