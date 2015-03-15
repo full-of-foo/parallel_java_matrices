@@ -59,13 +59,4 @@ public class SequentialNaiveMatrixMultiplyTest {
 		SequentialNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
 	}
 
-	// ~3.7 seconds
-	@Test
-	public void testTimes() {
-		Matrix m1 = Matrix.random(800, 800);
-		Matrix m2 = Matrix.random(800, 800);
-		assertNotNull(SequentialNaiveMatrixMultiplier.multiply(m1.getArray(),
-				m2.getArray()));
-	}
-
 }

@@ -60,13 +60,4 @@ public class SequentialBetterMatrixMultiplyTest {
 		SequentialBetterMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
 	}
 
-	// ~ 0.12 seconds
-	@Test
-	public void testTimes() {
-		Matrix m1 = Matrix.random(800, 800);
-		Matrix m2 = Matrix.random(800, 800);
-		assertNotNull(SequentialBetterMatrixMultiplier.multiply(m1.getArray(),
-				m2.getArray()));
-	}
-
 }

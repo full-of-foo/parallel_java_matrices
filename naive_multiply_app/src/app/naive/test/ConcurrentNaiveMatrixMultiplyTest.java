@@ -53,14 +53,5 @@ public class ConcurrentNaiveMatrixMultiplyTest {
 		Matrix m1 = new Matrix(4, 8, 2); // bad col
 		Matrix m2 = new Matrix(4, 4, 3);
 		ConcurrentNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray());
-	}
-
-	
-	//1.98 ~ seconds
-	@Test
-	public void testTimes() {
-	 	Matrix m1 = Matrix.random(800, 800);
-		Matrix m2 = Matrix.random(800, 800);
-		assertNotNull(ConcurrentNaiveMatrixMultiplier.multiply(m1.getArray(), m2.getArray()));
 	}	
 }

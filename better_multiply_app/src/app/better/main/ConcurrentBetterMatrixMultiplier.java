@@ -6,8 +6,10 @@ import java.util.concurrent.TimeUnit;
 
 public final class ConcurrentBetterMatrixMultiplier {
 
+
 	/**
-	 * TODO
+	 * Default method for cache-aware tiled matrix multiplication.
+	 * Sets a default tilingDividend of 4.
 	 * 
 	 * @param a1
 	 *            multiplying Matrix
@@ -17,6 +19,26 @@ public final class ConcurrentBetterMatrixMultiplier {
 	 * @return a3
 	 */
 	public static int[][] multiply(final int[][] a1, final int[][] a2) {
+		return multiply(a1, a2, 4);
+	}
+	
+	
+	
+	/**
+	 * Cache-aware tiled matrix multiplication.
+	 * 
+	 * @param a1
+	 *            multiplying Matrix
+	 * @param a2
+	 *            multiplying Matrix
+	 * @param tilingDividend
+	 * 			  dividend number in diving against the rowAmount of a1, a2 and colAmount of a1.
+	 * 			  Serves to determine tile dimensions based off the rowAmount of a1, a2 and colAmount of a1.
+	 * 			  Must be a multiple of the rowAmount of a1, a2 and colAmount of a1.
+	 * @throws IllegalArgumentException
+	 * @return a3
+	 */
+	public static int[][] multiply(final int[][] a1, final int[][] a2, final int tilingDividend) {
 		final int rowAmount1 = a1.length;
 		final int rowAmount2 = a2.length;
 		final int colAmount1 = a1[0].length;
@@ -26,12 +48,12 @@ public final class ConcurrentBetterMatrixMultiplier {
 		if (!isSquares && !isValidNonSquares) throw new IllegalArgumentException("Matrix dimensions must agree");
 		final int a3[][] = new int[rowAmount1][colAmount1];
 
-		final int s = (int) Math.ceil(rowAmount1 * 1.0 / 4);
-		final int s2 = (int) Math.ceil(colAmount1 * 1.0 / 4); 
-		final int s3 = (int) Math.ceil(rowAmount2 * 1.0 / 4); 
-		final int numTasks = Runtime.getRuntime().availableProcessors();
+		final int s = (int) Math.ceil(rowAmount1 * 1.0 / tilingDividend);
+		final int s2 = (int) Math.ceil(colAmount1 * 1.0 / tilingDividend); 
+		final int s3 = (int) Math.ceil(rowAmount2 * 1.0 / tilingDividend); 
+		final int numTasks = 10;
 		final ExecutorService executor = Executors.newFixedThreadPool(numTasks);
-	    for (int interval = numTasks, end = rowAmount1, size = (int) Math.ceil(rowAmount1 * 1.0 / numTasks); interval > 0; interval--, end -= size) {
+	    for (int interval = numTasks, end = rowAmount1, size = (int) Math.ceil(rowAmount1 * 1.0 / numTasks); interval > 0 && end > 0; interval--, end -= size) {
 	        final int to = end;
 	        final int from = Math.max(0, end - size);
 	        final Runnable runnable = new Runnable() {

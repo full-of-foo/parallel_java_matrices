@@ -26,11 +26,12 @@ public final class ConcurrentNaiveMatrixMultiplier {
 		if (!isSquares && !isValidNonSquares) throw new IllegalArgumentException("Matrix dimensions must agree");
 		final int a3[][] = new int[rowAmount1][colAmount1];
 
-		int numTasks = Runtime.getRuntime().availableProcessors();
+		int numTasks = 10;
 		final ExecutorService executor = Executors.newFixedThreadPool(numTasks);
-	    for (int interval = numTasks, end = rowAmount1, size = (int) Math.ceil(rowAmount1 * 1.0 / numTasks); interval > 0; interval--, end -= size) {
+	    for (int interval = numTasks, end = rowAmount1, size = (int) Math.ceil(rowAmount1 * 1.0 / numTasks); interval > 0 && end > 0; interval--, end -= size) {
 	        final int to = end;
 	        final int from = Math.max(0, end - size);
+	        
 	        final Runnable runnable = new Runnable() {
 
 				@Override
