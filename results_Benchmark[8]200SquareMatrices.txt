@@ -1,0 +1,922 @@
+doing measurement #21/60; NOTE: total execution count = 75 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 76 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 77 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 78 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 79 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 80 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 81 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 82 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 83 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 84 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 85 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 86 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 87 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 88 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 89 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 90 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 91 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 92 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #16/60; NOTE: total execution count = 93 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #17/60; NOTE: total execution count = 94 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #18/60; NOTE: total execution count = 95 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #19/60; NOTE: total execution count = 96 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 97 (restarted loop because 3 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 98 (restarted loop because 3 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 99 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 100 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 101 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 102 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 103 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 104 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 105 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 106 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 107 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 108 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 109 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 110 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 111 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 112 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 113 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 114 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 115 (restarted loop because 11 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 116 (restarted loop because 11 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 117 (restarted loop because 11 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 118 (restarted loop because 3 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 119 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 120 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 121 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 122 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 123 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 124 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 125 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 126 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 127 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 128 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 129 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 130 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 131 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 132 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 133 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 134 (restarted loop because 164 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 135 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 136 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 137 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 138 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 139 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 140 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 141 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 142 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 143 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 144 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 145 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 146 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 147 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 148 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 149 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #16/60; NOTE: total execution count = 150 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #17/60; NOTE: total execution count = 151 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #18/60; NOTE: total execution count = 152 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #19/60; NOTE: total execution count = 153 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #20/60; NOTE: total execution count = 154 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #21/60; NOTE: total execution count = 155 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #22/60; NOTE: total execution count = 156 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #23/60; NOTE: total execution count = 157 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 158 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 159 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 160 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 161 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 162 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 163 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 164 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 165 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 166 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 167 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 168 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 169 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 170 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 171 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 172 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #16/60; NOTE: total execution count = 173 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 174 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 175 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 176 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 177 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 178 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 179 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 180 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 181 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 182 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 183 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 184 (restarted loop because 7 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 185 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 186 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 187 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 188 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 189 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 190 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 191 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 192 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 193 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 194 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 195 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 196 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 197 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 198 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 199 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 200 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 201 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 202 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 203 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 204 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 205 (restarted loop because 14 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 206 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 207 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 208 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 209 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 210 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 211 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 212 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 213 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 214 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 215 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 216 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 217 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 218 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 219 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 220 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 221 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 222 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 223 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 224 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 225 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 226 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 227 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 228 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 229 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 230 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 231 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 232 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 233 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 234 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 235 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 236 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 237 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 238 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 239 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 240 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 241 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 242 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 243 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 244 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 245 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 246 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 247 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 248 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 249 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 250 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 251 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 252 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 253 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 254 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 255 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 256 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 257 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 258 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 259 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 260 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 261 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 262 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 263 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 264 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 265 (restarted loop because 9 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 266 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 267 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 268 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 269 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 270 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 271 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 272 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 273 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 274 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 275 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 276 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 277 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 278 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 279 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 280 (restarted loop because 13 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 281 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 282 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 283 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 284 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 285 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 286 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 287 (restarted loop because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 288 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 289 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 290 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 291 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 292 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 293 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 294 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 295 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 296 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 297 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 298 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 299 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 300 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 301 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 302 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #16/60; NOTE: total execution count = 303 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #17/60; NOTE: total execution count = 304 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #18/60; NOTE: total execution count = 305 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #19/60; NOTE: total execution count = 306 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #20/60; NOTE: total execution count = 307 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #21/60; NOTE: total execution count = 308 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #22/60; NOTE: total execution count = 309 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #23/60; NOTE: total execution count = 310 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #24/60; NOTE: total execution count = 311 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #25/60; NOTE: total execution count = 312 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #26/60; NOTE: total execution count = 313 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #27/60; NOTE: total execution count = 314 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #28/60; NOTE: total execution count = 315 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #29/60; NOTE: total execution count = 316 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #30/60; NOTE: total execution count = 317 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #31/60; NOTE: total execution count = 318 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #32/60; NOTE: total execution count = 319 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #33/60; NOTE: total execution count = 320 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #34/60; NOTE: total execution count = 321 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #35/60; NOTE: total execution count = 322 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #36/60; NOTE: total execution count = 323 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #37/60; NOTE: total execution count = 324 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #38/60; NOTE: total execution count = 325 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #39/60; NOTE: total execution count = 326 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #40/60; NOTE: total execution count = 327 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #41/60; NOTE: total execution count = 328 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #42/60; NOTE: total execution count = 329 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #43/60; NOTE: total execution count = 330 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #44/60; NOTE: total execution count = 331 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #45/60; NOTE: total execution count = 332 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #46/60; NOTE: total execution count = 333 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 334 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 335 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 336 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 337 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 338 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 339 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 340 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 341 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 342 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 343 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 344 (restarted loop because 2 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 345 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 346 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 347 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 348 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 349 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 350 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 351 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 352 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 353 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 354 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 355 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 356 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 357 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 358 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 359 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #16/60; NOTE: total execution count = 360 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #17/60; NOTE: total execution count = 361 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #18/60; NOTE: total execution count = 362 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #19/60; NOTE: total execution count = 363 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #20/60; NOTE: total execution count = 364 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #21/60; NOTE: total execution count = 365 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #22/60; NOTE: total execution count = 366 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #23/60; NOTE: total execution count = 367 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #24/60; NOTE: total execution count = 368 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #25/60; NOTE: total execution count = 369 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #26/60; NOTE: total execution count = 370 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #27/60; NOTE: total execution count = 371 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #28/60; NOTE: total execution count = 372 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #29/60; NOTE: total execution count = 373 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #30/60; NOTE: total execution count = 374 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #31/60; NOTE: total execution count = 375 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #32/60; NOTE: total execution count = 376 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #33/60; NOTE: total execution count = 377 (restarted loop because 4 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60; NOTE: total execution count = 378 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #2/60; NOTE: total execution count = 379 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #3/60; NOTE: total execution count = 380 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #4/60; NOTE: total execution count = 381 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #5/60; NOTE: total execution count = 382 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #6/60; NOTE: total execution count = 383 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #7/60; NOTE: total execution count = 384 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #8/60; NOTE: total execution count = 385 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #9/60; NOTE: total execution count = 386 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #10/60; NOTE: total execution count = 387 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #11/60; NOTE: total execution count = 388 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #12/60; NOTE: total execution count = 389 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #13/60; NOTE: total execution count = 390 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #14/60; NOTE: total execution count = 391 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #15/60; NOTE: total execution count = 392 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #16/60; NOTE: total execution count = 393 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #17/60; NOTE: total execution count = 394 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #18/60; NOTE: total execution count = 395 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #19/60; NOTE: total execution count = 396 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #20/60; NOTE: total execution count = 397 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #21/60; NOTE: total execution count = 398 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #22/60; NOTE: total execution count = 399 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #23/60; NOTE: total execution count = 400 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #24/60; NOTE: total execution count = 401 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #25/60; NOTE: total execution count = 402 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #26/60; NOTE: total execution count = 403 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #27/60; NOTE: total execution count = 404 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #28/60; NOTE: total execution count = 405 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #29/60; NOTE: total execution count = 406 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #30/60; NOTE: total execution count = 407 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #31/60; NOTE: total execution count = 408 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #32/60; NOTE: total execution count = 409 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #33/60; NOTE: total execution count = 410 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #34/60; NOTE: total execution count = 411 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #35/60; NOTE: total execution count = 412 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #36/60; NOTE: total execution count = 413 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #37/60; NOTE: total execution count = 414 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #38/60; NOTE: total execution count = 415 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #39/60; NOTE: total execution count = 416 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #40/60; NOTE: total execution count = 417 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #41/60; NOTE: total execution count = 418 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #42/60; NOTE: total execution count = 419 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #43/60; NOTE: total execution count = 420 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #44/60; NOTE: total execution count = 421 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #45/60; NOTE: total execution count = 422 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #46/60; NOTE: total execution count = 423 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #47/60; NOTE: total execution count = 424 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #48/60; NOTE: total execution count = 425 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #49/60; NOTE: total execution count = 426 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #50/60; NOTE: total execution count = 427 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #51/60; NOTE: total execution count = 428 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #52/60; NOTE: total execution count = 429 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #53/60; NOTE: total execution count = 430 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #54/60; NOTE: total execution count = 431 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #55/60; NOTE: total execution count = 432 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #56/60; NOTE: total execution count = 433 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #57/60; NOTE: total execution count = 434 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #58/60; NOTE: total execution count = 435 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #59/60; NOTE: total execution count = 436 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+doing measurement #60/60; NOTE: total execution count = 437 (restarted loop because 8 ms of compilation occured)
+                                                                                                                       
+executing bootstrap resample #1000/100000
+                                                                                                                       
+executing bootstrap resample #33000/100000
+                                                                                                                       
+executing bootstrap resample #77000/100000
+                                                                                                                       
+
+                                                                                                                       
+Naive Result: action statistics: first = 65.053 ms, mean = 3.693 ms (CI deltas: -2.187 us, +2.440 us), sd = 205.963 us (CI deltas: -40.651 us, +60.079 us) WARNING: execution times have mild outliers, SD VALUES MAY BE INACCURATE
+	----------
+	--the action statistics were calculated from block statistics
+	--each block measured 512 task executions
+	--the user says that task internally performs m = 1 actions
+	--then the number of actions per block measurement is a = 512
+	--block statistics: mean = 1.891 s (CI deltas: -1.120 ms, +1.249 ms), sd = 4.660 ms (CI deltas: -919.827 us, +1.359 ms)
+	--the forumla used to convert block statistics to action statistics (mean scales as 1/a, sd scales as 1/sqrt(a)) assumes that the action execution times are iid
+	----------
+	--each confidence interval (CI) is reported as either +- deltas from the point estimate, or as a closed interval ([x, y])
+	--each confidence interval has confidence level = 0.95
+	----------
+	--EXECUTION TIMES APPEAR TO HAVE OUTLIERS
+	--this was determined using the boxplot algorithm with median = 1.891 s, interquantileRange = 4.944 ms
+	--1 are mild (on the low side): #0 = 1.880 s
+	--3 are mild (on the high side): #57 = 1.902 s, #58 = 1.903 s, #59 = 1.906 s
+	----------
+	--sd results have unknown validity (the environmental noise test was skipped)
+
+                                                                                                                       
+osSpecificPreparation...
+                                                                                                                       
+performing many executions of task (lasting 10.0+ s) to fully warmup the JVM...
+                                                                                                                       
+determining how many executions of task are required for executionTimeGoal to be met; trying n = 32...
+                                                                                                                       
+determining how many executions of task are required for executionTimeGoal to be met; trying n = 128...
+                                                                                                                       
+determining how many executions of task are required for executionTimeGoal to be met; trying n = 256...
+                                                                                                                       
+determining how many executions of task are required for executionTimeGoal to be met; trying n = 512...
+                                                                                                                       
+determining how many executions of task are required for executionTimeGoal to be met; trying n = 1024...
+                                                                                                                       
+determining how many executions of task are required for executionTimeGoal to be met; trying n = 2048...
+                                                                                                                       
+determining how many executions of task are required for e...(Note: redoing this n because 1 ms of compilation occured)
+                                                                                                                       
+doing measurement #1/60
+                                                                                                                       
+doing measurement #2/60
+                                                                                                                       
+doing measurement #3/60
+                                                                                                                       
+doing measurement #4/60
+                                                                                                                       
+doing measurement #5/60
+                                                                                                                       
+doing measurement #6/60
+                                                                                                                       
+doing measurement #7/60
+                                                                                                                       
+doing measurement #8/60
+                                                                                                                       
+doing measurement #9/60
+                                                                                                                       
+doing measurement #10/60
+                                                                                                                       
+doing measurement #11/60
+                                                                                                                       
+doing measurement #12/60
+                                                                                                                       
+doing measurement #13/60
+                                                                                                                       
+doing measurement #14/60
+                                                                                                                       
+doing measurement #15/60
+                                                                                                                       
+doing measurement #16/60
+                                                                                                                       
+doing measurement #17/60
+                                                                                                                       
+doing measurement #18/60
+                                                                                                                       
+doing measurement #19/60
+                                                                                                                       
+doing measurement #20/60
+                                                                                                                       
+doing measurement #21/60
+                                                                                                                       
+doing measurement #22/60
+                                                                                                                       
+doing measurement #23/60
+                                                                                                                       
+doing measurement #24/60
+                                                                                                                       
+doing measurement #25/60
+                                                                                                                       
+doing measurement #26/60
+                                                                                                                       
+doing measurement #27/60
+                                                                                                                       
+doing measurement #28/60
+                                                                                                                       
+doing measurement #29/60
+                                                                                                                       
+doing measurement #30/60
+                                                                                                                       
+doing measurement #31/60
+                                                                                                                       
+doing measurement #32/60
+                                                                                                                       
+doing measurement #33/60
+                                                                                                                       
+doing measurement #34/60
+                                                                                                                       
+doing measurement #35/60
+                                                                                                                       
+doing measurement #36/60
+                                                                                                                       
+doing measurement #37/60
+                                                                                                                       
+doing measurement #38/60
+                                                                                                                       
+doing measurement #39/60
+                                                                                                                       
+doing measurement #40/60
+                                                                                                                       
+doing measurement #41/60
+                                                                                                                       
+doing measurement #42/60
+                                                                                                                       
+doing measurement #43/60
+                                                                                                                       
+doing measurement #44/60
+                                                                                                                       
+doing measurement #45/60
+                                                                                                                       
+doing measurement #46/60
+                                                                                                                       
+doing measurement #47/60
+                                                                                                                       
+doing measurement #48/60
+                                                                                                                       
+doing measurement #49/60
+                                                                                                                       
+doing measurement #50/60
+                                                                                                                       
+doing measurement #51/60
+                                                                                                                       
+doing measurement #52/60
+                                                                                                                       
+doing measurement #53/60
+                                                                                                                       
+doing measurement #54/60
+                                                                                                                       
+doing measurement #55/60
+                                                                                                                       
+doing measurement #56/60
+                                                                                                                       
+doing measurement #57/60
+                                                                                                                       
+doing measurement #58/60
+                                                                                                                       
+doing measurement #59/60
+                                                                                                                       
+doing measurement #60/60
+                                                                                                                       
+executing bootstrap resample #18000/100000
+                                                                                                                       
+executing bootstrap resample #58000/100000
+                                                                                                                       
+executing bootstrap resample #98000/100000
+                                                                                                                       
+
+                                                                                                                       
+Better Result: action statistics: first = 1.857 ms, mean = 626.460 us (CI deltas: -5.847 us, +6.700 us), sd = 1.116 ms (CI deltas: -153.401 us, +197.990 us) WARNING: execution times may have serial correlation, SD VALUES MAY BE INACCURATE
+	----------
+	--the action statistics were calculated from block statistics
+	--each block measured 2048 task executions
+	--the user says that task internally performs m = 1 actions
+	--then the number of actions per block measurement is a = 2048
+	--block statistics: mean = 1.283 s (CI deltas: -11.975 ms, +13.721 ms), sd = 50.524 ms (CI deltas: -6.942 ms, +8.960 ms)
+	--the forumla used to convert block statistics to action statistics (mean scales as 1/a, sd scales as 1/sqrt(a)) assumes that the action execution times are iid
+	----------
+	--each confidence interval (CI) is reported as either +- deltas from the point estimate, or as a closed interval ([x, y])
+	--each confidence interval has confidence level = 0.95
+	----------
+	--EXECUTION TIMES HAVE SERIAL CORRELATION
+	--1 of the 15 autocorrelation function coefficients (r[k]) that were computed are expected to fall outside their 95% CI
+	--but found these 5: r[1] is 5.976600859023351 sigma above its mean, r[2] is 3.5227215514482286 sigma above its mean, r[3] is 2.981542118833413 sigma above its mean, r[4] is 2.670999761440013 sigma above its mean, r[5] is 2.190482947530541 sigma above its mean
+	--the 95% CI for the r[k] was calculated as mean +- 1.96 sigma (i.e. a Gaussian distribution was assumed)
+	----------
+	--sd results have unknown validity (the environmental noise test was skipped)
+	----------
+	--action sd values ALMOST CERTAINLY GROSSLY INFLATED by outliers
+	--they cause at least 92.25323398026657% of the measured VARIANCE according to a equi-valued outlier model
+	--model quantities: a = 2048.0, muB = 1.2829903164833338, sigmaB = 0.050523917952689096, muA = 6.264601154703779E-4, sigmaA = 0.0011164314061393502, tMin = 0.0, muGMin = 3.132300577351889E-4, sigmaG = 7.830751443379723E-5, cMax1 = 491, cMax2 = 150, cMax = 150, cOutMin = 150, varOutMin = 0.0023549172009040176, muG(cOutMin) = 3.1332105630832414E-4, U(cOutMin) = 0.004588713010734231
